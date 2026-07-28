@@ -75,8 +75,11 @@ if not DATABASE_PATH.is_absolute():
 DB = BotDatabase(DATABASE_PATH)
 
 CATALOGO_PATH = BASE_DIR / "catalogo.json"
-WELCOME_IMAGE_PATH = BASE_DIR / "tw_store_boas_vindas.png"
+WELCOME_IMAGE_PATH = BASE_DIR / "ttwo_boas_vindas.png"
 SUPORTE_IMAGE_PATH = BASE_DIR / "tw_store_suporte.png"
+CONSULTAR_PEDIDOS_IMAGE_PATH = BASE_DIR / "consultar_pedidos.png"
+CONSULTAR_STATUS_IMAGE_PATH = BASE_DIR / "consultar_status.png"
+SOLICITAR_REPOSICAO_IMAGE_PATH = BASE_DIR / "solicitar_reposicao.jpg"
 PAGAMENTO_INSTAGRAM_LAYOUT_PATH = BASE_DIR / "pagamento_instagram_layout.png"
 PAGAMENTO_TIKTOK_LAYOUT_PATH = BASE_DIR / "pagamento_tiktok_layout.png"
 ASSINATURA_IMAGE_PATHS = {
@@ -1844,7 +1847,7 @@ def criar_flask_app():
 
     @web_app.get("/")
     def home():
-        return "TW Store Bot online", 200
+        return "TTwo: #Loja Online Bot online", 200
 
     @web_app.get("/health")
     def health():
@@ -2713,7 +2716,7 @@ def menu_principal() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup([
         [btn("📖 Catálogo de Serviços", "menu:catalogo")],
         [btn("🔎 Consultar Pedido", "pedido:consultar")],
-        [btn("🎟️ Abrir Ticket", "extra:atendimento")],
+        [btn("🎟️ Solicitar Suporte", "extra:atendimento")],
     ])
 
 
@@ -2721,8 +2724,8 @@ def menu_catalogos() -> InlineKeyboardMarkup:
     keyboard = [
         [btn("🚀 Engajamentos", "catalogo:redes_sociais")],
         [btn("🎫 Assinaturas", "catalogo:assinaturas")],
-        [btn("🎞️ IPTV XCIPTV", "catalogo:iptv")],
-        [btn("🛜 Internet Ilimitada", "catalogo:internet")],
+        [btn("📦 IPTV XCIPTV", "catalogo:iptv")],
+        [btn("📦 Internet Ilimitada", "catalogo:internet")],
         [btn("⬅️ Voltar", "voltar:inicio")],
     ]
     return InlineKeyboardMarkup(keyboard)
@@ -2730,9 +2733,9 @@ def menu_catalogos() -> InlineKeyboardMarkup:
 
 def menu_redes_sociais() -> InlineKeyboardMarkup:
     keyboard = [
-        [btn("🟣 Instagram", "catalogo:instagram")],
-        [btn("⚫ TikTok", "catalogo:tiktok")],
-        [btn("🟠 Kwai", "catalogo:kwai")],
+        [btn("📦 Instagram", "catalogo:instagram")],
+        [btn("📦 TikTok", "catalogo:tiktok")],
+        [btn("📦 Kwai", "catalogo:kwai")],
         [btn("⬅️ Voltar ao catálogo", "menu:catalogo")],
     ]
     return InlineKeyboardMarkup(keyboard)
@@ -2870,7 +2873,7 @@ def menu_assinaturas() -> InlineKeyboardMarkup:
 def menu_iptv() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [
-            [btn("1 mês — R$ 15,00", "item_iptv:1mes:1")],
+            [btn("1 mês — R$ 20,00", "item_iptv:1mes:1")],
             [btn("⬅️ Voltar", "menu:catalogo")],
         ]
     )
@@ -3542,6 +3545,110 @@ async def enviar_assinatura_cliente(
     )
     guardar_mensagem_bot(context, mensagem)
     return mensagem
+
+
+async def enviar_central_pedidos(update: Update, context: ContextTypes.DEFAULT_TYPE, texto: str, reply_markup=None):
+    """Envia a Central de Pedidos com a imagem configurada."""
+    if update.callback_query:
+        query = update.callback_query
+        await query.answer()
+        try:
+            await query.message.delete()
+        except Exception:
+            pass
+
+    if CONSULTAR_PEDIDOS_IMAGE_PATH.exists():
+        try:
+            with open(CONSULTAR_PEDIDOS_IMAGE_PATH, "rb") as photo:
+                mensagem = await context.bot.send_photo(
+                    chat_id=update.effective_chat.id,
+                    photo=photo,
+                    caption=texto,
+                    parse_mode=ParseMode.MARKDOWN,
+                    reply_markup=reply_markup,
+                )
+            guardar_mensagem_bot(context, mensagem)
+            return mensagem
+        except Exception as exc:
+            logging.warning("Falha ao enviar imagem da Central de Pedidos: %s", exc)
+
+    mensagem = await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text=texto,
+        parse_mode=ParseMode.MARKDOWN,
+        reply_markup=reply_markup,
+        disable_web_page_preview=True,
+    )
+    guardar_mensagem_bot(context, mensagem)
+    return mensagem
+
+
+async def enviar_tela_pedido_com_imagem(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE,
+    imagem_path: Path,
+    texto: str,
+    reply_markup=None,
+    nome_tela: str = "pedido",
+):
+    """Troca a mensagem atual por uma tela de pedido com imagem e legenda."""
+    if update.callback_query:
+        query = update.callback_query
+        try:
+            await query.answer()
+        except Exception:
+            pass
+        try:
+            await query.message.delete()
+        except Exception:
+            pass
+
+    if imagem_path.exists():
+        try:
+            with open(imagem_path, "rb") as photo:
+                mensagem = await context.bot.send_photo(
+                    chat_id=update.effective_chat.id,
+                    photo=photo,
+                    caption=texto,
+                    parse_mode=ParseMode.MARKDOWN,
+                    reply_markup=reply_markup,
+                )
+            guardar_mensagem_bot(context, mensagem)
+            return mensagem
+        except Exception as exc:
+            logging.warning("Falha ao enviar imagem da tela %s: %s", nome_tela, exc)
+
+    mensagem = await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text=texto,
+        parse_mode=ParseMode.MARKDOWN,
+        reply_markup=reply_markup,
+        disable_web_page_preview=True,
+    )
+    guardar_mensagem_bot(context, mensagem)
+    return mensagem
+
+
+async def enviar_consultar_status(update: Update, context: ContextTypes.DEFAULT_TYPE, texto: str, reply_markup=None):
+    return await enviar_tela_pedido_com_imagem(
+        update,
+        context,
+        CONSULTAR_STATUS_IMAGE_PATH,
+        texto,
+        reply_markup,
+        "Consultar Status",
+    )
+
+
+async def enviar_solicitar_reposicao(update: Update, context: ContextTypes.DEFAULT_TYPE, texto: str, reply_markup=None):
+    return await enviar_tela_pedido_com_imagem(
+        update,
+        context,
+        SOLICITAR_REPOSICAO_IMAGE_PATH,
+        texto,
+        reply_markup,
+        "Solicitar Reposição",
+    )
 
 
 async def enviar_atendimento_cliente(update: Update, context: ContextTypes.DEFAULT_TYPE, texto: str, reply_markup=None):
@@ -4501,8 +4608,9 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if data == "pedido:consultar":
         context.user_data.clear()
-        await safe_edit_or_reply(
+        await enviar_central_pedidos(
             update,
+            context,
             (
                 "📦 *Central de pedidos*\n\n"
                 "Acompanhe seus pedidos de forma rápida e organizada.\n\n"
@@ -4515,8 +4623,9 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if data == "pedido:consultar_status":
         context.user_data.clear()
         context.user_data["consulta_pedido"] = True
-        await safe_edit_or_reply(
+        await enviar_consultar_status(
             update,
+            context,
             (
                 "🔎 *Consultar Status*\n\n"
                 "Envie o ID do pedido que você quer consultar.\n\n"
@@ -4530,8 +4639,9 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if data == "pedido:solicitar_refil":
         context.user_data.clear()
         context.user_data["refil_pedido"] = True
-        await safe_edit_or_reply(
+        await enviar_solicitar_reposicao(
             update,
+            context,
             (
                 "🔄 *Solicitar Reposição*\n\n"
                 "Envie o ID do pedido que precisa de reposição.\n\n"
@@ -4544,7 +4654,7 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if data.startswith("pedido:refil:"):
         order_id = data.split(":", 2)[2]
-        await processar_solicitacao_refil(update, context, order_id)
+        await processar_solicitacao_refil(update, context, order_id, usar_imagem=True)
         return
 
     if data == "menu:catalogo":
@@ -4838,7 +4948,7 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
             update,
             CATALOGO["catalogos"]["internet_ilimitada"]["mensagem"],
             InlineKeyboardMarkup([
-                [btn("1 mês — R$ 15,00", "internet:1mes")],
+                [btn("1 mês — R$ 20,00", "internet:1mes")],
                 [btn("⬅️ Voltar", "menu:catalogo")]
             ]),
         )
@@ -4852,7 +4962,7 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "servico_chave": "1mes",
             "servico": servico.get("nome", "1 mês"),
             "quantidade": item.get("quantidade_texto", "1 mês"),
-            "valor": item.get("valor", "15,00"),
+            "valor": item.get("valor", "20,00"),
             "link": None,
             "status": "aguardando_email_iptv",
             "usuario": update.effective_user.full_name,
@@ -4990,7 +5100,22 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
 
-async def processar_solicitacao_refil(update: Update, context: ContextTypes.DEFAULT_TYPE, consulta_id: str):
+async def processar_solicitacao_refil(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE,
+    consulta_id: str,
+    usar_imagem: bool = False,
+):
+    async def enviar_resposta_refil_local(update_local, texto, reply_markup):
+        if usar_imagem:
+            return await enviar_solicitar_reposicao(
+                update_local,
+                context,
+                texto,
+                reply_markup,
+            )
+        return await safe_edit_or_reply(update_local, texto, reply_markup)
+
     order_id, pedido_local, origem = obter_order_id_para_refil(consulta_id)
 
     if not order_id:
@@ -5000,7 +5125,7 @@ async def processar_solicitacao_refil(update: Update, context: ContextTypes.DEFA
         )
         if pedido_local:
             texto += "\n\n" + texto_status_pedido_local(pedido_local, origem)
-        await safe_edit_or_reply(
+        await enviar_resposta_refil_local(
             update,
             texto,
             InlineKeyboardMarkup([
@@ -5021,7 +5146,7 @@ async def processar_solicitacao_refil(update: Update, context: ContextTypes.DEFA
             or ""
         ).strip().lower()
         if status_atual in {"pending", "in progress", "inprogress", "processing"}:
-            await safe_edit_or_reply(
+            await enviar_resposta_refil_local(
                 update,
                 (
                     "⏳ *Refil ainda não disponível*\n\n"
@@ -5044,7 +5169,7 @@ async def processar_solicitacao_refil(update: Update, context: ContextTypes.DEFA
                 pedido_local["ultimo_refil_id"] = refil_id
             salvar_pedido_historico(pedido_local)
 
-        await safe_edit_or_reply(
+        await enviar_resposta_refil_local(
             update,
             texto_refil_solicitado(order_id, resultado),
             InlineKeyboardMarkup([
@@ -5056,7 +5181,7 @@ async def processar_solicitacao_refil(update: Update, context: ContextTypes.DEFA
         return
 
     except (PlataformaAPIConfigError, PlataformaAPIRequestError) as exc:
-        await safe_edit_or_reply(
+        await enviar_resposta_refil_local(
             update,
             (
                 "⚠️ *Não foi possível pedir o refil agora*\n\n"
@@ -5375,7 +5500,7 @@ def main():
     app.add_handler(CallbackQueryHandler(callbacks))
     app.add_handler(MessageHandler((filters.PHOTO | filters.Document.ALL), receber_comprovante))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, receber_texto))
-    print("Bot TW STORE iniciado.")
+    print("Bot TTwo: #Loja Online iniciado.")
     print(f"Pasta de dados em: {DATA_DIR}")
     print(f"Banco SQLite em: {DATABASE_PATH}")
     # Evita que o Telegram entregue callbacks/mensagens antigas quando o bot reinicia.
