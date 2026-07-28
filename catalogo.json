@@ -1,0 +1,1254 @@
+{
+  "loja": "TW STORE",
+  "mensagens": {
+    "inicio": "🚀 Bem-vindo(a) à TW STORE\n\nSua central de serviços digitais com atendimento organizado, processo simples e suporte dedicado do início ao fim.\n\nAqui você pode escolher o serviço, informar os dados do pedido, realizar o pagamento e acompanhar tudo pelo próprio bot com praticidade.",
+    "catalogo": "🛍️ *Catálogo TW STORE*\n\nSelecione a categoria desejada para ver os detalhes.\nㅤ",
+    "instagram": "📸 *Instagram*\n\nEscolha abaixo o tipo de serviço que deseja contratar.\n\nVocê pode selecionar pacotes para perfil ou publicação, com pedido organizado e conferência antes da finalização.\n\nToque em uma opção para continuar:",
+    "duvidas": "❓ *Dúvidas Frequentes*\n\n*Como faço um pedido?*\nEnvie o serviço desejado e o link/@ necessário.\n\n*Quanto tempo demora?*\nO prazo varia conforme o serviço e a demanda do momento.\n\n*Posso tirar dúvidas antes de pagar?*\nSim. Nossa equipe confirma as informações antes da finalização.",
+    "atendimento": "🎟️ *Suporte por Ticket — TW STORE*\n\nPara falar com nossa equipe, solicite um ticket em nossa plataforma de suporte.\n\nClique no botão abaixo para entrar e abrir seu atendimento.\n\nAo criar o ticket, informe:\n• Motivo do suporte\n• Número do pedido, se tiver\n• Prints ou detalhes do problema\n\n⏳ Nossa equipe responderá assim que possível.",
+    "pagamento": "💳 *Finalização do Pedido*\n\nEstou conferindo as informações enviadas.\n\nEm seguida, você receberá a tela de pagamento com o valor exato, o resumo do pedido e o botão para copiar o Pix.",
+    "pedido_confirmado": "✅ *Etapa 3 de 3 — Pedido aprovado!*\n\n🎉 *Pagamento confirmado com sucesso!*\n\n📌 *Status do pedido*\n• Pagamento aprovado\n• Pedido recebido pela equipe\n• Aguardando ativação/envio dos dados\n\n🛠️ *Próximo passo*\nNossa equipe vai processar seu acesso e enviar as informações assim que estiver tudo pronto.\n\n🎫 Precisa de ajuda? Fale com o suporte.",
+    "prazos_suporte": "⏰ *Prazos e Suporte*\n\nCada serviço possui um prazo diferente de início e conclusão.\n\nCaso tenha dúvidas, envie 1 para que possa ser transferido para alguém da equipe da TW Store. \nㅤ",
+    "solicitar_link": "🛒 Etapa 1 de 3 — Produto escolhido\n\n🔗 Agora envie o link ou @\n\nEnvie abaixo o link ou @ correto para continuar o pedido.\n\n⚠️ O perfil ou conteúdo precisa estar público até a conclusão do serviço.",
+    "confirmar_dados": "Confira os dados do pedido abaixo. Se estiver tudo certo, toque em Confirmar pedido.",
+    "erro_admin": "Pedido registrado, mas não consegui enviar o relatório ao administrador. Confira se ADMIN_CHAT_ID está configurado.",
+    "solicitar_link_publicacao": "🛒 Etapa 1 de 3 — Produto escolhido\n\n🔗 Agora envie o link da publicação\n\nEnvie abaixo somente o link da publicação para continuar o pedido.\n\n⚠️ O perfil ou conteúdo precisa estar público até a conclusão do serviço."
+  },
+  "catalogos": {
+    "instagram": {
+      "titulo": "📦 Instagram",
+      "mensagem": "📸 *Instagram*\n\nEscolha abaixo o tipo de serviço que deseja contratar.\n\nVocê pode selecionar pacotes para perfil ou publicação, com pedido organizado e conferência antes da finalização.\n\nToque em uma opção para continuar:",
+      "servicos": {
+        "seguidores": {
+          "nome": "Seguidores",
+          "mensagem": "👤 *Seguidores Instagram*\n\nConfira os pacotes disponíveis para aumentar seu perfil com segurança.\n\n🌎 *Região:* Estrangeiros\n📲 *Plataforma:* Instagram\n📦 *Serviço:* Seguidores\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,70",
+              "titulo": "100 Seguidores\nvalor: R$ 0,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "1,20",
+              "titulo": "200 Seguidores\nvalor: R$ 1,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "1,40",
+              "titulo": "300 Seguidores\nvalor: R$ 1,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "1,60",
+              "titulo": "400 Seguidores\nvalor: R$ 1,60",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "2,00",
+              "titulo": "500 Seguidores\nvalor: R$ 2,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "2,20",
+              "titulo": "600 Seguidores\nvalor: R$ 2,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "2,40",
+              "titulo": "700 Seguidores\nvalor: R$ 2,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "2,80",
+              "titulo": "800 Seguidores\nvalor: R$ 2,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "2,90",
+              "titulo": "900 Seguidores\nvalor: R$ 2,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "3,50",
+              "titulo": "1.000 Seguidores\nvalor: R$ 3,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "6,89",
+              "titulo": "2.000 Seguidores\nvalor: R$ 6,89",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "9,00",
+              "titulo": "3.000 Seguidores\nvalor: R$ 9,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "12,50",
+              "titulo": "4.000 Seguidores\nvalor: R$ 12,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "14,50",
+              "titulo": "5.000 Seguidores\nvalor: R$ 14,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "28,00",
+              "titulo": "10.000 Seguidores\nvalor: R$ 28,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": null
+        },
+        "curtidas": {
+          "nome": "Curtidas",
+          "mensagem": "♥️ *Curtidas Instagram*\n\nConfira os pacotes disponíveis para melhorar o engajamento das suas publicações com segurança.\n\n🌎 *Região:* Estrangeiros\n📲 *Plataforma:* Instagram\n📦 *Serviço:* Curtidas\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,50",
+              "titulo": "100 Curtidas\nvalor: R$ 0,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "0,60",
+              "titulo": "200 Curtidas\nvalor: R$ 0,60",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "0,70",
+              "titulo": "300 Curtidas\nvalor: R$ 0,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "0,80",
+              "titulo": "400 Curtidas\nvalor: R$ 0,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "0,90",
+              "titulo": "500 Curtidas\nvalor: R$ 0,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "1,00",
+              "titulo": "600 Curtidas\nvalor: R$ 1,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "1,10",
+              "titulo": "700 Curtidas\nvalor: R$ 1,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "1,20",
+              "titulo": "800 Curtidas\nvalor: R$ 1,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "1,30",
+              "titulo": "900 Curtidas\nvalor: R$ 1,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "1,35",
+              "titulo": "1.000 Curtidas\nvalor: R$ 1,35",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "2,35",
+              "titulo": "2.000 Curtidas\nvalor: R$ 2,35",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "3,35",
+              "titulo": "3.000 Curtidas\nvalor: R$ 3,35",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "4,35",
+              "titulo": "4.000 Curtidas\nvalor: R$ 4,35",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "5,35",
+              "titulo": "5.000 Curtidas\nvalor: R$ 5,35",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "8,35",
+              "titulo": "10.000 Curtidas\nvalor: R$ 8,35",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Instagram\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": null
+        },
+        "visualizacoes": {
+          "nome": "Visualizações",
+          "mensagem": "👁️‍🗨️ *Visualizações Instagram*\n\nConfira os pacotes disponíveis para impulsionar seus vídeos e conteúdos com segurança.\n\n🌎 *Região:* Estrangeiros\n📲 *Plataforma:* Instagram\n📦 *Serviço:* Visualizações\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,50",
+              "titulo": "100 Visualizações\nvalor: R$ 0,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "0,70",
+              "titulo": "200 Visualizações\nvalor: R$ 0,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "0,90",
+              "titulo": "300 Visualizações\nvalor: R$ 0,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "1,10",
+              "titulo": "400 Visualizações\nvalor: R$ 1,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "1,30",
+              "titulo": "500 Visualizações\nvalor: R$ 1,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "1,50",
+              "titulo": "600 Visualizações\nvalor: R$ 1,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "1,70",
+              "titulo": "700 Visualizações\nvalor: R$ 1,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "1,90",
+              "titulo": "800 Visualizações\nvalor: R$ 1,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "2,10",
+              "titulo": "900 Visualizações\nvalor: R$ 2,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "2,30",
+              "titulo": "1.000 Visualizações\nvalor: R$ 2,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "2,40",
+              "titulo": "2.000 Visualizações\nvalor: R$ 2,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "2,50",
+              "titulo": "3.000 Visualizações\nvalor: R$ 2,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "2,60",
+              "titulo": "4.000 Visualizações\nvalor: R$ 2,60",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "2,70",
+              "titulo": "5.000 Visualizações\nvalor: R$ 2,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "3,20",
+              "titulo": "10.000 Visualizações\nvalor: R$ 3,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Instagram\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": null
+        }
+      },
+      "servicos_brasileiros": {
+        "seguidores": {
+          "nome": "Seguidores",
+          "mensagem": "👤 *Seguidores Instagram — Brasileiros*\n\nConfira os pacotes disponíveis para aumentar seu perfil com seguidores brasileiros.\n\n🇧🇷 *Região:* Brasil\n📲 *Plataforma:* Instagram\n📦 *Serviço:* Seguidores\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "2,00",
+              "titulo": "100 Seguidores\nvalor: R$ 2,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "2,50",
+              "titulo": "200 Seguidores\nvalor: R$ 2,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "3,30",
+              "titulo": "300 Seguidores\nvalor: R$ 3,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "4,00",
+              "titulo": "400 Seguidores\nvalor: R$ 4,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "4,75",
+              "titulo": "500 Seguidores\nvalor: R$ 4,75",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "5,50",
+              "titulo": "600 Seguidores\nvalor: R$ 5,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "6,25",
+              "titulo": "700 Seguidores\nvalor: R$ 6,25",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "7,00",
+              "titulo": "800 Seguidores\nvalor: R$ 7,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "7,75",
+              "titulo": "900 Seguidores\nvalor: R$ 7,75",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "9,00",
+              "titulo": "1.000 Seguidores\nvalor: R$ 9,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "19,00",
+              "titulo": "2.000 Seguidores\nvalor: R$ 19,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "26,50",
+              "titulo": "3.000 Seguidores\nvalor: R$ 26,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "35,00",
+              "titulo": "4.000 Seguidores\nvalor: R$ 35,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "42,50",
+              "titulo": "5.000 Seguidores\nvalor: R$ 42,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "85,00",
+              "titulo": "10.000 Seguidores\nvalor: R$ 85,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Instagram — Serviços Brasileiros\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": ""
+        }
+      }
+    },
+    "tiktok": {
+      "titulo": "📦 TikTok",
+      "mensagem": "🎵 *TikTok*\n\nEscolha abaixo o tipo de serviço que deseja contratar.\n\nVocê pode selecionar pacotes para perfil ou publicação, com pedido organizado e conferência antes da finalização.\n\nToque em uma opção para continuar:",
+      "servicos": {
+        "seguidores": {
+          "nome": "Seguidores",
+          "mensagem": "👤 *Seguidores TikTok*\n\nConfira os pacotes disponíveis para aumentar seu perfil com segurança.\n\n🌎 *Região:* Estrangeiros\n📲 *Plataforma:* TikTok\n📦 *Serviço:* Seguidores\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "2,00",
+              "titulo": "100 Seguidores\nvalor: R$ 2,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "3,50",
+              "titulo": "200 Seguidores\nvalor: R$ 3,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "5,50",
+              "titulo": "300 Seguidores\nvalor: R$ 5,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "6,50",
+              "titulo": "400 Seguidores\nvalor: R$ 6,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "8,00",
+              "titulo": "500 Seguidores\nvalor: R$ 8,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "9,50",
+              "titulo": "600 Seguidores\nvalor: R$ 9,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "11,00",
+              "titulo": "700 Seguidores\nvalor: R$ 11,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "12,50",
+              "titulo": "800 Seguidores\nvalor: R$ 12,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "14,00",
+              "titulo": "900 Seguidores\nvalor: R$ 14,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "15,50",
+              "titulo": "1.000 Seguidores\nvalor: R$ 15,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "31,50",
+              "titulo": "2.000 Seguidores\nvalor: R$ 31,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "47,50",
+              "titulo": "3.000 Seguidores\nvalor: R$ 47,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "63,50",
+              "titulo": "4.000 Seguidores\nvalor: R$ 63,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "79,50",
+              "titulo": "5.000 Seguidores\nvalor: R$ 79,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "152,20",
+              "titulo": "10.000 Seguidores\nvalor: R$ 152,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: TikTok\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": null
+        },
+        "curtidas": {
+          "nome": "Curtidas",
+          "mensagem": "♥️ *Curtidas TikTok*\n\nConfira os pacotes disponíveis para melhorar o engajamento das suas publicações com segurança.\n\n🌎 *Região:* Estrangeiros\n📲 *Plataforma:* TikTok\n📦 *Serviço:* Curtidas\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,50",
+              "titulo": "100 Curtidas\nvalor: R$ 0,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "0,90",
+              "titulo": "200 Curtidas\nvalor: R$ 0,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "1,30",
+              "titulo": "300 Curtidas\nvalor: R$ 1,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "1,70",
+              "titulo": "400 Curtidas\nvalor: R$ 1,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "2,10",
+              "titulo": "500 Curtidas\nvalor: R$ 2,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "2,50",
+              "titulo": "600 Curtidas\nvalor: R$ 02,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "2,90",
+              "titulo": "700 Curtidas\nvalor: R$ 2,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "3,30",
+              "titulo": "800 Curtidas\nvalor: R$ 3,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "3,70",
+              "titulo": "900 Curtidas\nvalor: R$ 3,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "4,10",
+              "titulo": "1.000 Curtidas\nvalor: R$ 4,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "7,50",
+              "titulo": "2.000 Curtidas\nvalor: R$ 7,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "10,50",
+              "titulo": "3.000 Curtidas\nvalor: R$ 10,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "13,50",
+              "titulo": "4.000 Curtidas\nvalor: R$ 13,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "16,50",
+              "titulo": "5.000 Curtidas\nvalor: R$ 16,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "20,00",
+              "titulo": "10.000 Curtidas\nvalor: R$ 20,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: TikTok\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": null
+        },
+        "visualizacoes": {
+          "nome": "Visualizações",
+          "mensagem": "👁️‍🗨️ *Visualizações TikTok*\n\nConfira os pacotes disponíveis para impulsionar seus vídeos e conteúdos com segurança.\n\n🌎 *Região:* Estrangeiros\n📲 *Plataforma:* TikTok\n📦 *Serviço:* Visualizações\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,50",
+              "titulo": "100 Visualizações\nvalor: R$ 0,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "0,70",
+              "titulo": "200 Visualizações\nvalor: R$ 0,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "0,90",
+              "titulo": "300 Visualizações\nvalor: R$ 0,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "1,10",
+              "titulo": "400 Visualizações\nvalor: R$ 1,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "1,30",
+              "titulo": "500 Visualizações\nvalor: R$ 1,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "1,50",
+              "titulo": "600 Visualizações\nvalor: R$ 1,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "1,70",
+              "titulo": "700 Visualizações\nvalor: R$ 1,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "1,90",
+              "titulo": "800 Visualizações\nvalor: R$ 1,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "2,10",
+              "titulo": "900 Visualizações\nvalor: R$ 2,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "2,30",
+              "titulo": "1.000 Visualizações\nvalor: R$ 2,30",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "2,67",
+              "titulo": "2.000 Visualizações\nvalor: R$ 2,67",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "3,81",
+              "titulo": "3.000 Visualizações\nvalor: R$ 3,81",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "4,94",
+              "titulo": "4.000 Visualizações\nvalor: R$ 4,94",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "6,28",
+              "titulo": "5.000 Visualizações\nvalor: R$ 6,28",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "11,36",
+              "titulo": "10.000 Visualizações\nvalor: R$ 11,36",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: TikTok\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido."
+            }
+          ],
+          "api_service_id": null
+        }
+      }
+    },
+    "kwai": {
+      "titulo": "🟠 Kwai",
+      "mensagem": "🟠 *Kwai*\n\nEscolha abaixo o tipo de serviço que deseja contratar.\n\nToque em uma opção para continuar:",
+      "servicos": {
+        "seguidores": {
+          "nome": "Seguidores",
+          "mensagem": "👤 *Seguidores Kwai*\n\nConfira os pacotes disponíveis para aumentar seu perfil com segurança.\n\n🌎 *Região:* Brasileiros\n📲 *Plataforma:* Kwai\n📦 *Serviço:* Seguidores\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,70",
+              "titulo": "100 Seguidores\nvalor: R$ 0,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 0,70"
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "1,70",
+              "titulo": "200 Seguidores\nvalor: R$ 1,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 1,70"
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "2,20",
+              "titulo": "300 Seguidores\nvalor: R$ 2,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,20",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "2,60",
+              "titulo": "400 Seguidores\nvalor: R$ 2,60",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,60",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "3,70",
+              "titulo": "500 Seguidores\nvalor: R$ 3,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 3,70"
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "4,40",
+              "titulo": "600 Seguidores\nvalor: R$ 4,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 4,40",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "4,90",
+              "titulo": "700 Seguidores\nvalor: R$ 4,90",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 4,90"
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "5,70",
+              "titulo": "800 Seguidores\nvalor: R$ 5,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 5,70",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "6,70",
+              "titulo": "900 Seguidores\nvalor: R$ 6,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 6,70"
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "7,00",
+              "titulo": "1.000 Seguidores\nvalor: R$ 7,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 7,00"
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "12,20",
+              "titulo": "2.000 Seguidores\nvalor: R$ 12,20",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 12,20",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "15,80",
+              "titulo": "3.000 Seguidores\nvalor: R$ 15,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 15,80"
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "19,40",
+              "titulo": "4.000 Seguidores\nvalor: R$ 19,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 19,40",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "23,00",
+              "titulo": "5.000 Seguidores\nvalor: R$ 23,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 23,00",
+              "observacao": "valor calculado proporcionalmente por não existir esta quantidade no arquivo original"
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "41,00",
+              "titulo": "10.000 Seguidores\nvalor: R$ 41,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Seguidores\n📲 Plataforma: Kwai\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie o link ou @ correto do perfil para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 41,00"
+            }
+          ],
+          "api_service_id": null
+        },
+        "curtidas": {
+          "nome": "Curtidas",
+          "mensagem": "♥️ *Curtidas Kwai*\n\nConfira os pacotes disponíveis para melhorar o engajamento das suas publicações com segurança.\n\n🌎 *Região:* Brasileiros\n📲 *Plataforma:* Kwai\n📦 *Serviço:* Curtidas\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "0,50",
+              "titulo": "100 Curtidas\nvalor: R$ 0,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 0,50"
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "0,70",
+              "titulo": "200 Curtidas\nvalor: R$ 0,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 0,70"
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "1,00",
+              "titulo": "300 Curtidas\nvalor: R$ 1,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 1,00"
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "1,36",
+              "titulo": "400 Curtidas\nvalor: R$ 1,36",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 1,36"
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "1,85",
+              "titulo": "500 Curtidas\nvalor: R$ 1,85",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 1,85"
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "2,10",
+              "titulo": "600 Curtidas\nvalor: R$ 2,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,10"
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "2,40",
+              "titulo": "700 Curtidas\nvalor: R$ 2,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,40"
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "2,80",
+              "titulo": "800 Curtidas\nvalor: R$ 2,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,80"
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "3,10",
+              "titulo": "900 Curtidas\nvalor: R$ 3,10",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 3,10"
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "3,40",
+              "titulo": "1.000 Curtidas\nvalor: R$ 3,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 3,40"
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "6,80",
+              "titulo": "2.000 Curtidas\nvalor: R$ 6,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 6,80"
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "9,80",
+              "titulo": "3.000 Curtidas\nvalor: R$ 9,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 9,80"
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "13,00",
+              "titulo": "4.000 Curtidas\nvalor: R$ 13,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 13,00"
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "16,00",
+              "titulo": "5.000 Curtidas\nvalor: R$ 16,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 16,00"
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "25,00",
+              "titulo": "10.000 Curtidas\nvalor: R$ 25,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Curtidas\n📲 Plataforma: Kwai\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 25,00"
+            }
+          ],
+          "api_service_id": null
+        },
+        "visualizacoes": {
+          "nome": "Visualizações",
+          "mensagem": "👁️‍🗨️ *Visualizações Kwai*\n\nConfira os pacotes disponíveis para impulsionar seus vídeos e conteúdos com segurança.\n\n🌎 *Região:* Brasileiros\n📲 *Plataforma:* Kwai\n📦 *Serviço:* Visualizações\n\nSelecione abaixo o pacote desejado:\nㅤ",
+          "itens": [
+            {
+              "quantidade": 100,
+              "quantidade_texto": "100",
+              "valor": "1,05",
+              "titulo": "100 Visualizações\nvalor: R$ 1,05",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 100\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 1,05"
+            },
+            {
+              "quantidade": 200,
+              "quantidade_texto": "200",
+              "valor": "1,70",
+              "titulo": "200 Visualizações\nvalor: R$ 1,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 200\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 1,70"
+            },
+            {
+              "quantidade": 300,
+              "quantidade_texto": "300",
+              "valor": "2,70",
+              "titulo": "300 Visualizações\nvalor: R$ 2,70",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 300\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,70"
+            },
+            {
+              "quantidade": 400,
+              "quantidade_texto": "400",
+              "valor": "2,80",
+              "titulo": "400 Visualizações\nvalor: R$ 2,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 400\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 2,80"
+            },
+            {
+              "quantidade": 500,
+              "quantidade_texto": "500",
+              "valor": "3,50",
+              "titulo": "500 Visualizações\nvalor: R$ 3,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 500\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 3,50"
+            },
+            {
+              "quantidade": 600,
+              "quantidade_texto": "600",
+              "valor": "4,00",
+              "titulo": "600 Visualizações\nvalor: R$ 4,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 600\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 4,00"
+            },
+            {
+              "quantidade": 700,
+              "quantidade_texto": "700",
+              "valor": "4,80",
+              "titulo": "700 Visualizações\nvalor: R$ 4,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 700\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 4,80"
+            },
+            {
+              "quantidade": 800,
+              "quantidade_texto": "800",
+              "valor": "5,40",
+              "titulo": "800 Visualizações\nvalor: R$ 5,40",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 800\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 5,40"
+            },
+            {
+              "quantidade": 900,
+              "quantidade_texto": "900",
+              "valor": "5,80",
+              "titulo": "900 Visualizações\nvalor: R$ 5,80",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 900\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 5,80"
+            },
+            {
+              "quantidade": 1000,
+              "quantidade_texto": "1.000",
+              "valor": "9,00",
+              "titulo": "1.000 Visualizações\nvalor: R$ 9,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 1.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 9,00"
+            },
+            {
+              "quantidade": 2000,
+              "quantidade_texto": "2.000",
+              "valor": "15,00",
+              "titulo": "2.000 Visualizações\nvalor: R$ 15,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 2.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 15,00"
+            },
+            {
+              "quantidade": 3000,
+              "quantidade_texto": "3.000",
+              "valor": "20,50",
+              "titulo": "3.000 Visualizações\nvalor: R$ 20,50",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 3.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 20,50"
+            },
+            {
+              "quantidade": 4000,
+              "quantidade_texto": "4.000",
+              "valor": "26,00",
+              "titulo": "4.000 Visualizações\nvalor: R$ 26,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 4.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 26,00"
+            },
+            {
+              "quantidade": 5000,
+              "quantidade_texto": "5.000",
+              "valor": "32,00",
+              "titulo": "5.000 Visualizações\nvalor: R$ 32,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 5.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 32,00"
+            },
+            {
+              "quantidade": 10000,
+              "quantidade_texto": "10.000",
+              "valor": "62,00",
+              "titulo": "10.000 Visualizações\nvalor: R$ 62,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\nℹ️ Resumo do Pedido\n\n📦 Pacote selecionado: Visualizações\n📲 Plataforma: Kwai\n🔢 Quantidade: 10.000\n\n📕 Regras da Solicitação\n\n1️⃣ Envie somente o link da publicação para continuar o pedido.\n\n2️⃣ O perfil precisa estar público para solicitar o serviço.\n\n3️⃣ O perfil ou conteúdo precisa continuar público até a conclusão do pedido.\n\n💰 Valor: R$ 62,00"
+            }
+          ],
+          "api_service_id": null
+        }
+      }
+    },
+    "assinaturas": {
+      "titulo": "🎫 Assinaturas",
+      "mensagem": "🎫 *Assinaturas*\n\nEscolha abaixo o serviço desejado.\n\nDepois da seleção, envie o e-mail do cliente, confira os dados e siga para o pagamento.",
+      "servicos": {
+        "netflix": {
+          "nome": "Netflix",
+          "valor": "8,00",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Netflix\n💰 Valor: R$ 8,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para continuar."
+        },
+        "prime_video": {
+          "nome": "Prime Video",
+          "valor": "5,00",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Prime Video\n💰 Valor: R$ 5,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para continuar."
+        },
+        "crunchyroll": {
+          "nome": "Crunchyroll",
+          "valor": "5,00",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Crunchyroll\n💰 Valor: R$ 5,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para continuar."
+        },
+        "spotify": {
+          "nome": "Spotify",
+          "valor": "8,00",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Spotify\n💰 Valor: R$ 8,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para continuar."
+        },
+        "paramount": {
+          "nome": "Paramount",
+          "valor": "6,00",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Paramount\n💰 Valor: R$ 6,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para continuar."
+        }
+      }
+    },
+    "iptv": {
+      "titulo": "🎞️ IPTV XCIPTV",
+      "mensagem": "🎞️ *IPTV XCIPTV*\n\n📺 Canais, filmes e séries em um só lugar, com acesso pelo aplicativo *XCIPTV*.\n\n📦 *Plano disponível*\n• 1 mês — *R$ 15,00*\n\n🛒 O pedido será feito em 3 etapas:\n1️⃣ Produto escolhido\n2️⃣ Pagamento\n3️⃣ Pedido aprovado\n\n👇 Toque no plano abaixo para continuar.",
+      "servicos": {
+        "1mes": {
+          "nome": "1 mês",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: IPTV XCIPTV — 1 mês\n🎞️ Aplicativo: XCIPTV\n💰 Valor: R$ 15,00\n\n📧 Próximo passo\nEnvie o e-mail que será usado para ativar o acesso.",
+          "itens": [
+            {
+              "quantidade": 1,
+              "quantidade_texto": "1 mês",
+              "valor": "15,00",
+              "titulo": "IPTV XCIPTV — 1 mês\\nvalor: R$ 15,00",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: IPTV XCIPTV — 1 mês\n🎞️ Aplicativo: XCIPTV\n💰 Valor: R$ 15,00\n\n📧 Próximo passo\nEnvie o e-mail que será usado para ativar o acesso."
+            }
+          ]
+        }
+      }
+    },
+    "internet_ilimitada": {
+      "titulo": "🛜 Internet Ilimitada",
+      "mensagem": "🛜 *Internet Ilimitada*\n\n📱 *Plano mensal para Android*\n\n✅ Funciona somente nas operadoras: *TIM* e *Vivo*\n✅ Compatível apenas com aparelhos *Android*\n✅ Ativação simples e rápida\n💰 *Valor:* R$ 15,00 por mês\n\n🛒 O pedido será feito em 3 etapas:\n1️⃣ Produto escolhido\n2️⃣ Pagamento\n3️⃣ Pedido aprovado\n\n⚠️ Antes de comprar, confirme se o chip é TIM ou Vivo e se o aparelho é Android.\n\nEscolha o plano abaixo para continuar.",
+      "servicos": {
+        "1mes": {
+          "nome": "1 mês",
+          "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Internet Ilimitada — 1 mês\n📡 Operadoras: TIM e Vivo\n📱 Aparelhos: Android\n💰 Valor: R$ 15,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para ativação do serviço.",
+          "itens": [
+            {
+              "quantidade": 1,
+              "quantidade_texto": "1 mês",
+              "valor": "15,00",
+              "titulo": "Internet Ilimitada 1 mês",
+              "mensagem": "🛒 Etapa 1 de 3 — Produto escolhido\n\n📦 Serviço: Internet Ilimitada — 1 mês\n📡 Operadoras: TIM e Vivo\n📱 Aparelhos: Android\n💰 Valor: R$ 15,00\n\n📧 Próximo passo\nEnvie o e-mail do cliente para ativação do serviço."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "menus_extras": {
+    "duvidas": "❓ *Dúvidas Frequentes*\n\n*Como faço um pedido?*\nEnvie o serviço desejado e o link/@ necessário.\n\n*Quanto tempo demora?*\nO prazo varia conforme o serviço e a demanda do momento.\n\n*Posso tirar dúvidas antes de pagar?*\nSim. Nossa equipe confirma as informações antes da finalização.",
+    "atendimento": "🎟️ *Suporte por Ticket — TW STORE*\n\nPara falar com nossa equipe, solicite um ticket em nossa plataforma de suporte.\n\nAo criar o ticket, informe:\n• Motivo do suporte\n• Número do pedido, se tiver\n• Prints ou detalhes do problema\n\n⏳ Nossa equipe responderá assim que possível.",
+    "prazos_suporte": "⏰ *Prazos e Suporte*\n\nCada serviço possui um prazo diferente de início e conclusão.\n\nCaso tenha dúvidas, envie 1 para que possa ser transferido para alguém da equipe da TW Store. \nㅤ"
+  }
+}
